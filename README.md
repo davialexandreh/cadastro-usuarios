@@ -23,5 +23,7 @@ Utilizei códigos de status HTTP adequados para cada tipo de resposta, promovend
 ### 4) Feedback Instantâneo
 Durante todo o processo de desenvolvimento, concentrei-me em fornecer feedback instantâneo aos usuários. Seja na criação bem-sucedida de um novo usuário ou na exclusão de um registro, assegurei que os usuários recebessem uma resposta imediata sobre o resultado de suas ações, aumentando assim a usabilidade e a satisfação do usuário.
 
+Além disso, é importante ressaltar que os testes desta API foram realizados utilizando o Insomnia, garantindo assim a qualidade e confiabilidade do sistema.
+
 ---
 Este projeto representa uma contribuição significativa para a comunidade de desenvolvimento, proporcionando uma solução robusta e confiável para o gerenciamento de usuários em aplicações web. Sinta-se à vontade para contribuir, reportar problemas ou sugerir melhorias! 🛠️📈
