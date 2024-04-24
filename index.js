@@ -1,8 +1,10 @@
 const express = require('express')
 const uuid = require('uuid')
+const cors = require('cors')
 
 const app = express()
 app.use(express.json())
+app.use(cors())
 
 const usuarios = []
 
@@ -52,6 +54,6 @@ app.delete('/usuarios/:id', checkIdUsuario, (request, response) => {
     return response.status(204).json()
 })
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log("✅ Servidor online")
 })
